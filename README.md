@@ -12,7 +12,7 @@ A simple hack to enable course registration through js script injection on [MyCa
 
 4. **Investigate** `https://care-fs.iubh.de/ajax/4713/CourseInscriptionCurricular/DefaultController/fetchCourses?bookingId=123456789` and find for each subject ID the corresponding lecture series.
 
-   - Note down the lecture series ID for the course, e.g.:
+   - Note down the [lecture series ID](script.js#L15L48) and the [curriculum entry ID](script.js#L15L48) for each course, e.g.:
 
 | Course | Curriculum Entry ID | Lecture Series ID |
 | ------ | ------------------- | ----------------- |
