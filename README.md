@@ -23,6 +23,8 @@ A simple hack to enable course registration through js script injection on [MyCa
 
 5. **Install [Tampermonkey](https://www.tampermonkey.net)** and install the [script.js](script.js).
 
-This script will add the drop-down selectors and a  button on your course registration page for easy course booking.
+This script will add the drop-down selectors and a  button on your course registration page for easy course booking:
+
+[![screenshot](assets/screenshot.png)](https://mycampus.iubh.de/)
 
 **Happy hacking!**
