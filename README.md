@@ -1,4 +1,4 @@
-# iubh-tempermonky-course-registration
+# iubh-tempermonkey-course-registration
 A simple hack to enable course registration through js script injection on [MyCampus](https://mycampus.iubh.de/).
 
 It can be used to gain access to elective modules before the final decision.
