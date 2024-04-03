@@ -120,11 +120,12 @@
                     alert("Success!");
                 } else {
                     console.log('Server responded with a status:', response.status);
-                    alert('Error: ' + response.status);
+                    alert('Failure!');
                 }
             },
             onerror: function(response) {
                 console.log('Request failed:', response);
+                alert('Error!');
             }
         });
     });
