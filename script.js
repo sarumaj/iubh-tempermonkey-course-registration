@@ -11,7 +11,7 @@
 (function() {
     'use strict';
 
-    // Your courses and actions setup remains the same
+    // Your courses may vary
     const courses = [
         { name: "Advanced Mathematics (DLMDSAM01)", lectureSeriesId: '10053254', curriculumEntryId: '10559081' },
         { name: "Advanced Statistics (DLMDSAS01)", lectureSeriesId: '10053256', curriculumEntryId: '10559083' },
@@ -47,6 +47,7 @@
         { name: "User Interface and Experience (DLMAIEUIUX01)", lectureSeriesId: '10068387', curriculumEntryId: '10559112' }
     ];
 
+    // Actions should remain the same
     const actions = ['BookCourse', 'CancelBooking'];
 
     // Create container div
@@ -93,8 +94,8 @@
     button.addEventListener('click', function() {
         const selectedCourse = JSON.parse(courseSelect.value);
         const action = actionSelect.value;
-        const enrolmentPeriodId = '12'; // Assuming this is static and may vary for each student
-        const bookingId = '10761449'; // Assuming this is static and may vary for each student or study course
+        const enrolmentPeriodId = '12'; // Assuming this is static, but it may vary for each student
+        const bookingId = '10761449'; // Assuming this is static, but it may vary for each student or study course (this works for M.Sc. CS)
 
         // Specify the URL
         const url = `https://care-fs.iubh.de/ajax/4713/CourseInscriptionCurricular/DefaultController/${action}` +
