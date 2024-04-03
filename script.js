@@ -2,6 +2,8 @@
 // @name        Add Button and Dropdowns for POST Request with GM_xmlhttpRequest
 // @namespace   http://tampermonkey.net/
 // @version     1.0
+// @updateURL   https://github.com/sarumaj/iubh-tempermonkey-course-registration/script.js
+// @downloadURL https://github.com/sarumaj/iubh-tempermonkey-course-registration/script.js
 // @description Add dropdowns and a button to send a POST request to a specified URL bypassing CORS.
 // @author      You
 // @match       https://mycampus.iubh.de/local/iubh_ac5sso/ac5kursbuchung.php
