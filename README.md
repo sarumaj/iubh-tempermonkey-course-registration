@@ -29,4 +29,4 @@ This script will add the drop-down selectors and a  button on your course regist
 
 [![screenshot](assets/screenshot.png)](https://mycampus.iubh.de/)
 
-**Happy hacking!**
+**Happy studying!**
