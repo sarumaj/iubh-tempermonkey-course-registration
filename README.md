@@ -3,11 +3,12 @@ A simple hack to enable course registration through js script injection on [MyCa
 
 1. Open [https://mycampus.iubh.de/local/iubh_ac5sso/ac5kursbuchung.php](https://mycampus.iubh.de/local/iubh_ac5sso/ac5kursbuchung.php)
 
-2. **Inspect the side loading process:**
+2. **Inspect the side loading process** in your browser.
 
-3. **Investigate** `https://care-fs.iubh.de/ajax/4713/CourseInscriptionCurricular/DefaultController/fetchCurriculumEntry?bookingId=123456789` and note down the booking id.
+3. **Investigate** `https://care-fs.iubh.de/ajax/4713/CourseInscriptionCurricular/DefaultController/fetchCurriculumEntry?bookingId=123456789` and note down the [booking id](script.js#L97).
 
-   - Find all relevant courses, note the course name (child label), curriculum entry ID (child ID), and subject ID (subject ID of the child). Consider the deepest children only.
+   - Find all relevant courses, and note the course name (child label), curriculum entry ID (child ID), and subject ID (subject ID of the child). Consider the deepest children only.
+   - Check if the [enrollment period](script.js#L96) is correct.
 
 4. **Investigate** `https://care-fs.iubh.de/ajax/4713/CourseInscriptionCurricular/DefaultController/fetchCourses?bookingId=123456789` and find for each subject ID the corresponding lecture series.
 
@@ -20,7 +21,7 @@ A simple hack to enable course registration through js script injection on [MyCa
 | Algorithmics | 10559090 | 10052515 |
 | ... | ... | ... |
 
-5. **Install [Tampermonkey](https://www.tampermonkey.net)** and install the following [script](script.js).
+5. **Install [Tampermonkey](https://www.tampermonkey.net)** and install the [script.js](script.js).
 
 This script will add the drop-down selectors and a  button on your course registration page for easy course booking.
 
