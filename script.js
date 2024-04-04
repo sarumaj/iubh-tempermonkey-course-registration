@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name        Add Button and Dropdowns for POST Request with GM_xmlhttpRequest
+// @name        Course registration enforcer
 // @namespace   http://tampermonkey.net/
 // @version     1.0
 // @updateURL   https://raw.githubusercontent.com/sarumaj/iubh-tempermonkey-course-registration/main/script.js
 // @downloadURL https://raw.githubusercontent.com/sarumaj/iubh-tempermonkey-course-registration/main/script.js
-// @description Add dropdowns and a button to send a POST request to a specified URL bypassing CORS.
-// @author      You
+// @description Add dropdowns and a button to send a POST request to a course booking URL bypassing CORS.
+// @author      Dawid Ciepiela
 // @match       https://mycampus.iubh.de/local/iubh_ac5sso/ac5kursbuchung.php
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
