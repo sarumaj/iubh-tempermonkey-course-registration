@@ -7,6 +7,8 @@
 // @description Add dropdowns and a button to send a POST request to a course booking URL bypassing CORS.
 // @author      Dawid Ciepiela
 // @match       https://mycampus.iubh.de/local/iubh_ac5sso/ac5kursbuchung.php
+// @match       https://mycampus.iu.org/study-management/study-plan*
+// @icon        https://www.google.com/s2/favicons?sz=64&domain=iu.org
 // @grant       GM_xmlhttpRequest
 // ==/UserScript==
 
