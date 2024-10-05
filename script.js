@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name        Course registration enforcer
+// @name        iubh-course-registration-enforcer
 // @namespace   http://tampermonkey.net/
 // @version     1.0
 // @updateURL   https://raw.githubusercontent.com/sarumaj/iubh-tempermonkey-course-registration/main/script.js
